@@ -9,7 +9,7 @@ function sparkline(values, width, height, color) {
 
   // TODO handle lines at edge getting cut off for larger stroke widths
   line.setStrokeWidth(2);
-  line.setFill("#00000055");
+  line.setFill("#33507755");
 
   if(color) {
     line.setStroke(color || "#000000");
