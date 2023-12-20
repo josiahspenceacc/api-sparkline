@@ -8,7 +8,8 @@ function sparkline(values, width, height, color) {
   line.setViewBoxWidth(width);
 
   // TODO handle lines at edge getting cut off for larger stroke widths
-  line.setStrokeWidth(1);
+  line.setStrokeWidth(2);
+  line.setFill(#cccccc);
 
   if(color) {
     line.setStroke(color || "#000000");
